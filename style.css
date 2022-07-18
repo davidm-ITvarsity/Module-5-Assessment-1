@@ -61,7 +61,7 @@ h1 {
 #uranus {
   width: 66px;
   height: 66px;
-  margin: 143px;
+  margin: 120px;
   z-index: 1000;
   animation: spin-right 8s linear infinite;
   -webkit-animation: spin-right 8s linear infinite;
@@ -77,7 +77,7 @@ h1 {
   border: 1px dotted #eee;
   border-radius: 50%;
   animation: spin-left 15s linear infinite;
-  -webkit-animation: spin-left 13s linear infinite;
+  -webkit-animation: spin-left 15s linear infinite;
 }
 
 #uranus-label {
@@ -161,7 +161,7 @@ h1 {
   -webkit-animation: spin-left 4s linear infinite;
 }
 
-#mars-label {
+#mars-label{
   bottom: 343px;
 }
 
@@ -189,7 +189,7 @@ h1 {
   -webkit-animation: spin-left 5s linear infinite;
 }
 
-#earth-label {
+#earth-label{
   bottom: 294px;
 }
 
@@ -215,18 +215,19 @@ h1 {
   -webkit-animation: spin-left 4s linear infinite;
 }
 
-#venus-label {
+#venus-label{
   bottom: 239px;
 }
 
 /*==================== MERCURY ====================*/
 
 #mercury {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   margin: 8px;
   z-index: 1000;
 }
+
 
 #mercury-orbit {
   position: absolute;
@@ -242,7 +243,7 @@ h1 {
   -webkit-animation: spin-left 2s linear infinite;
 }
 
-#mercury-label {
+#mercury-label{
   bottom: 189px;
 }
 
